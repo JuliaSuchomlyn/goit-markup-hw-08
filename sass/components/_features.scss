@@ -1,0 +1,20 @@
+.features__icon {
+        background-color: var(--secondary-bg-color);
+        border-radius: 4px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+}
+.features__point {
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--secondary-color-text);
+}
+.features__item {
+    margin-bottom: 30px;
+}

@@ -1,27 +1,35 @@
 .customers {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    
+    margin-bottom: calc(-1 * var(--card-set-gat));
+    margin-right: calc(-1 * var(--card-set-gat));
+}
+.customers__item {
+        margin-bottom: var(--card-set-gat);
+        margin-right: var(--card-set-gat);
+        width: calc(100% / 2 - var(--card-set-gat));
 }
 .customers__link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
-    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border: 1px solid var(--color-icons);
     border-radius: 4px;
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         border: 1px solid var(--accent-color);
     }
 
 }
 .customers__logo {
     fill: var(--color-icons);
-    
+
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .customers__link:hover & {
