@@ -47,25 +47,26 @@ ul {
     text-align: center;
 }
 .container {
-    max-width: 1140px;
+    max-width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 @media screen and (min-width: 480px) {
     .container {
-    width: 480px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 @media screen and (min-width: 768px) {
     .container {
-    width: 768px;
+    width: 738px;
     }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
     .container {
-        width: 1140px;
+        width: 1170px;
     }
 }
 .section {
