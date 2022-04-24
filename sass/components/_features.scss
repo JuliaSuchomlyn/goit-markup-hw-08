@@ -1,10 +1,10 @@
 .features__icon {
-        background-color: var(--secondary-bg-color);
-        border-radius: 4px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        text-align: center;
-        margin-bottom: 30px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .features__point {
     margin-bottom: 10px;
@@ -16,5 +16,22 @@
     color: var(--secondary-color-text);
 }
 .features__item {
-    margin-bottom: 30px;
+        margin-bottom: var(--card-set-gat);
+    @media screen and (min-width:768px) {
+        margin-right: var(--card-set-gat);
+        width: calc(100% / 2 - var(--card-set-gat));        
+    }
+    @media screen and (min-width:1200px) {
+        width: calc(100% / 4 - var(--card-set-gat));
+    }
+}
+.features__list {
+    @media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-bottom: calc(-1 * var(--card-set-gat));
+    margin-right: calc(-1 * var(--card-set-gat));
+    }
+    
 }
