@@ -2,6 +2,7 @@
     @media screen and (min-width:768px) {
         display: flex;
         flex-wrap: wrap;
+        
         margin-right: calc(-1 * var(--card-set-gat));
         margin-bottom: calc(-1 * var(--card-set-gat));
     }
@@ -13,6 +14,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 
     color: var(--secondary-color-text);
 }
@@ -31,6 +33,7 @@
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     @media screen and (min-width:768px) {
+        height: 100%;
         margin-right: 30px;
         width: calc(100% / 2 - var(--card-set-gat));
     }
@@ -84,8 +87,11 @@
 }
 
 .portfolio__card {
+    // display: flex;
+    // flex-direction: column;
     padding: 20px 24px;
     border: 1px solid #eeeeee;
     border-top: none;
+    // flex-grow: 1;
 }
 
