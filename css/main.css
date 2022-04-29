@@ -44,7 +44,7 @@ ul {
 }
 
 .title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
   color: var(--secondary-color-text);
   font-size: 28px;
@@ -54,6 +54,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .title {
+    margin-bottom: 50px;
     font-size: 36px;
   }
 }
@@ -87,6 +88,17 @@ ul {
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.no-padding-top {
+  padding-top: 0;
 }
 
 .visually-hidden {
