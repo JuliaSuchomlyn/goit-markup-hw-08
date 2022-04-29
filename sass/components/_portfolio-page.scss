@@ -24,6 +24,7 @@
 
 }
 .portfolio {
+    margin-bottom: calc(-1 * var(--card-set-gat));
     @media screen and (max-width:767px) {
         margin-top: 40px;
     }
@@ -31,8 +32,7 @@
         display: flex;
         flex-wrap: wrap;
         
-        margin-right: calc(-1 * var(--card-set-gat));
-        margin-bottom: calc(-1 * var(--card-set-gat));
+        margin-right: calc(-1 * var(--card-set-gat));  
     }
 
 }
