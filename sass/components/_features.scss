@@ -22,7 +22,7 @@
     }
 }
 .features__item {
-        margin-bottom: var(--card-set-gat);
+    margin-bottom: var(--card-set-gat);
     @media screen and (min-width:768px) {
         margin-right: var(--card-set-gat);
         width: calc(100% / 2 - var(--card-set-gat));        
@@ -32,11 +32,11 @@
     }
 }
 .features__list {
+    margin-bottom: calc(-1 * var(--card-set-gat));
     @media screen and (min-width:768px) {
     display: flex;
     flex-wrap: wrap;
     
-    margin-bottom: calc(-1 * var(--card-set-gat));
     margin-right: calc(-1 * var(--card-set-gat));
     }
     
