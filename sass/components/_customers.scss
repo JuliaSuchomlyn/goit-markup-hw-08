@@ -2,13 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     
-    margin-bottom: calc(-1 * var(--card-set-gat));
-    margin-right: calc(-1 * var(--card-set-gat));
+ margin: -15px;
 }
 .customers__item {
-    margin-bottom: var(--card-set-gat);
-    margin-right: var(--card-set-gat);
-    width: calc(100% / 2 - var(--card-set-gat));
+margin: 15px;
+    width: calc(100% / 2 - 30px);
     @media screen and (min-width:768px) {
     width: calc(100% / 3 - var(--card-set-gat));
     }
